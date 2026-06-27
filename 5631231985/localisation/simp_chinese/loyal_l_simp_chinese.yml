@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+
+ absolute_loyalty: "绝对忠诚"
+ subject_sensors_desc: "该条款指定附属国是否对宗主国保持绝对的忠诚。"
+ subject_no_absolute_loyalty: "无绝对忠诚"
+ subject_no_absolute_loyalty_desc: "这个附属国不必绝对忠诚于宗主国"
+ subject_absolute_loyalty: "绝对忠诚"
+ subject_absolute_loyalty_desc: "这个附属国必须绝对忠诚于宗主国"

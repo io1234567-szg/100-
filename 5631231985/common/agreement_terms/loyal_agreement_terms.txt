@@ -1,0 +1,28 @@
+# Agreement terms are the different terms that can be negotiated in Agreements, such as Subject Agreements.
+# This file only defines which terms can be negotiated. The different options for the terms are defined in agreement_term_values scripts.
+
+# Example:
+#
+# name_of_term = {
+# 	# This defines how the term will show up in the UI. If it shows up as discrete/separate buttons or if it's a scale.
+# 	# Supported values: discrete, discrete_number, specialist_type
+# 	term_type = discrete 
+# 	# Whether the term should show up on the agreement negotiation screen (default: no)
+# 	hidden = yes/no
+# }
+# 协议条款是可以在协议中协商的不同条款，比如主题协议。
+# 这个文件只是定义哪些条款可以协商。条款的不同选项在 agreement_term_values 脚本中定义。
+
+# 示例：
+#
+# name_of_term = {
+# # 这定义了条款在用户界面中的显示方式。是以单独按钮显示还是以量表显示。
+# # 支持的值：discrete, discrete_number, specialist_type
+# term_type = discrete
+# # 该条款是否应在协议协商界面显示（默认：否）
+# hidden = yes/no
+# }
+
+absolute_loyalty = {
+	term_type = discrete
+}

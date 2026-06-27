@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+
+ absolute_loyalty: "Absolute Loyalty"
+ subject_sensors_desc: "This term designates whether or not the vassal maintains absolute loyalty to the overlord."
+ subject_no_absolute_loyalty: "No Absolute Loyalty"
+ subject_no_absolute_loyalty_desc: "The vassal need not be absolutely loyal to the overlord"
+ subject_absolute_loyalty: "Absolute Loyalty"
+ subject_absolute_loyalty_desc: "The vassal must be absolutely loyal to the overlord"

@@ -1,0 +1,61 @@
+NGameplay = {
+
+    INTEGRATE_SUBJECT_MIN_DAYS				= 0 		# 3600，整合附庸冷却
+    SUBJECTS_INTEGRATION_CAP				= 100 		# 1，可同时整合附庸数
+    SUBJECT_INTEGRATION_BASE_PROGRESS		= 0.1		# 5，Cost per month for subject integration
+    SUBJECT_INTEGRATION_COST_BASE			= 0.1		# 50，Base cost for integration
+    SUBJECT_INTEGRATION_COST_PER_POP		= 0.01 		# 0.01，Integration cost per pop
+    SUBJECT_INTEGRATION_COST_PER_PLANET		= 1 		# 10，Integration cost per planet
+
+    # 关系和军事对附庸初始忠诚度的影响，公式：相对等级（0~4）*FACTOR-SUBTRACT
+    SUBJECT_LOYALTY_RELATION_FACTOR = 100			# 50
+    SUBJECT_LOYALTY_RELATION_SUBTRACT = 0			# 150
+    SUBJECT_LOYALTY_RELATIVE_POWER_FACTOR = 100		# 25
+    SUBJECT_LOYALTY_RELATIVE_POWER_SUBTRACT = 0		# 100
+
+    SUBJECT_MONTHLY_LOYALTY_INTEGRATION = 100				# -5，被整合时每月忠诚度变化
+    SUBJECT_MONTHLY_LOYALTY_OPINION_MULTIPLIER = 0.01	# 0.01，每月附庸对宗主关系乘以此数后加入忠诚度变化
+    SUBJECT_LOYALTY_MAX = 1000
+    SUBJECT_LOYALTY_MIN = 0
+    SUBJECT_XP_LOYALTY_MULTIPLIER = 10
+    SUBJECT_TYPE_CONVERSION_MATCHES_PREFERRED_ETHIC_SPEED_FACTOR = 20
+    T_TYPE_CONVERSION_NO_PREFERRED_ETHIC_SPEED_FACTOR = 10
+    T_TYPE_CONVERSION_OPPOSITE_ETHIC_SPEED_FACTOR = 5
+    AGREEMENT_RESOURCE_SUBSIDIES_MIN = -1
+    AGREEMENT_RESOURCE_SUBSIDIES_MAX = -1
+    AGREEMENT_RESOURCE_SUBSIDIES_INCREMENT = 0.1
+
+    # SUBJECT_LOYALTY_MAX = 100000					# 100，忠诚度上限
+    # SUBJECT_LOYALTY_MIN = 0					# -100，忠诚度下限
+
+    # SUBJECT_XP_LOYALTY_MULTIPLIER = 10			# 0.1，附庸每月获得特化经验=忠诚度乘以此数
+
+    # SUBJECT_TYPE_CONVERSION_MATCHES_PREFERRED_ETHIC_SPEED_FACTOR = 3 			# 1.42，相同思潮时 特化速度乘数
+    # SUBJECT_TYPE_CONVERSION_MATCHES_FANATIC_PREFERRED_ETHIC_SPEED_FACTOR = 4  	# 2，相同极端思潮时 特化速度乘数
+    # SUBJECT_TYPE_CONVERSION_NO_PREFERRED_ETHIC_SPEED_FACTOR = 2 				# 1，无相关思潮时 特化速度乘数
+    # SUBJECT_TYPE_CONVERSION_OPPOSITE_ETHIC_SPEED_FACTOR = 1 					# 0.67，相反思潮时 特化速度乘数
+    # SUBJECT_TYPE_CONVERSION_FANATIC_OPPOSITE_ETHIC_SPEED_FACTOR = 0.5				# 0.5，相反极端思潮时 特化速度乘数
+    # SUBJECT_TYPE_CONVERSION_SPRAWL_FACTOR = 10 									# 5，速度 = 这个数 除 帝国规模
+
+    # AGREEMENT_RESOURCE_SUBSIDIES_MIN = -1		# -0.75，资源条款下限
+    # AGREEMENT_RESOURCE_SUBSIDIES_MAX = -1			# -0.75，资源条款上限
+    # AGREEMENT_RESOURCE_SUBSIDIES_INCREMENT = 0.05		# 0.05，资源条款刻度条
+
+    # AGREEMENT_INTANGIBLE_TITHE_LINEAR_FACTOR = 1.0		# For small tithes, each fraction of intangible (e.g. science) tithe yields this much (negative) impact
+    # AGREEMENT_INTANGIBLE_TITHE_LARGE = 0.5				# A "large" tithe, for which impact reaches the below value
+    # AGREEMENT_INTANGIBLE_TITHE_LARGE_VALUE	= 1.0		# (Negative) impact reached for the above "large" tithe
+    # AGREEMENT_INTANGIBLE_SUBSIDY_LINEAR_FACTOR = 0.5	# For small subsidies, each fraction of intangible (e.g. science) subsidy yields this much impact
+    # AGREEMENT_INTANGIBLE_SUBSIDY_LARGE = 0.5			# A "large" subsidy, for which impact reaches the below value
+    # AGREEMENT_INTANGIBLE_SUBSIDY_LARGE_VALUE = 0.5		# Impact reached for the above "large" subsidy
+    # AGREEMENT_INTANGIBLE_IMPACT_LOYALTY_WEIGHT = 100	# Translates change in intangible impact into loyalty change
+    # AGREEMENT_ECONOMIC_IMPACT_LOYALTY_WEIGHT = 100		# Translates change in economic impact (roughly -1 - +1) into loyalty change
+
+
+    AGREEMENT_CHANGE_COOLDOWN_MONTHS 			= 0		# 60，附庸条款变更冷却（月）
+    AGREEMENT_LOYALTY_DELTA_MULT				= 0		# 5，影响力花费乘数
+    AGREEMENT_PROPOSE_INFLUENCE_COST 			= 0		# 50，协议基础成本
+    AGREEMENT_DENY_AS_SUBJECT_INFLUENCE_COST	= 100000	# 50，附庸拒绝协议基础成本
+    AGREEMENT_DENY_AS_OVERLORD_INFLUENCE_COST	= 0.5	# 25，宗主拒绝协议基础成本
+    AGREEMENT_EXPANSION_TITHE_FACTOR			= 3.0	# 0.5，限制扩张给予宗主的影响力乘数
+    VASSALIZATION_ACCEPTANCE_PROTECTORATE_MULT = 0.01		# 乘以潜在霸主领先的科技数量
+	VASSALIZATION_ACCEPTANCE_PROTECTORATE_MAX = 20

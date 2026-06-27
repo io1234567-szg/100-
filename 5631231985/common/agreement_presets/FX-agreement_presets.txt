@@ -1,0 +1,2 @@
+@protectorate_tech_threshold = 0.8
+@protectorate_tech_switch = 0.7
